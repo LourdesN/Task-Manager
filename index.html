@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task-form">
+        <center>  <h3>Task Manager</h3></center>
+        <input type="text" id="task-input" placeholder="Add new task...">
+        <button onclick="Addtask()">Add task</button>
+
+        <ul id="task-list"></ul>
+    </div>
+    
+    <ul id="task-list"></ul>
+           <!-- Firebase SDK -->
+           <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+           <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+           <script src="script.js"></script>
+</body>
+</html>

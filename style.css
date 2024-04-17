@@ -1,0 +1,81 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #fad0c4 0%, #ffd1ff 100%);
+  background-repeat: repeat;
+ 
+}
+
+.task-form {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  max-width: 400px;
+  min-width: 250px;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-image: radial-gradient(#bfc0, 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.task-form h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.task-form input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 7%;
+  margin-top: 15px;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: rgb(255, 142, 180);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-image: radial-gradient( circle 685.3px at 47.8% 55.1%,  rgba(255,99,152,1) 0%, rgba(251,213,149,1) 90.1% );
+  color: black;
+}
+.task-form ::placeholder{
+    font-size: small;
+    font-style: italic;
+}
+
+.task-item {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.task-item span {
+  margin-right: 10px;
+}
+
+.task-item button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8%;
+  margin-left: 10px;
+}
+
+.task-item button:hover {
+  background-color: #cc0000;
+}
